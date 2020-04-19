@@ -8,6 +8,8 @@
 // ^(.+) (.+)\((.*)\);$\n^(.+) _imp__(.+)\((.*)\);
 // $1 $2($3);
 
+#ifndef HOPPER
+
 typedef signed char int8;
 typedef unsigned char uint8;
 typedef signed short int16;
@@ -16,6 +18,8 @@ typedef signed long int32;
 typedef unsigned long uint32;
 typedef signed long long int64;
 typedef unsigned long long uint64;
+
+#endif
 
 #ifdef GHIDRA
 
@@ -90,32 +94,33 @@ typedef size_t rsize_t;
 extern uintptr_t __stack_chk_guard;
 __attribute__((noreturn)) void __stack_chk_fail(void);
 
-#import "Kernel/Types.h"
-#import "dyld/Types.h"
-#import "pthread/Types.h"
-#import "Darwin/Types.h"
-#import "sandbox/Types.h"
-#import "icu/Types.h"
-#import "CoreAnimation/Types.h"
-#import "CoreAudio/Types.h"
-#import "AudioToolbox/Types.h"
-#import "CommonCrypto/Types.h"
-#import "CoreFoundation/Types.h"
-#import "CoreGraphics/Types.h"
-#import "CoreMedia/Types.h"
-#import "CoreText/Types.h"
-#import "CoreVideo/Types.h"
-#import "Foundation/Types.h"
-#import "IOKit/Types.h"
-#import "IOSurface/Types.h"
-#import "objc/Types.h"
-#import "os/Types.h"
-#import "Security/Types.h"
-#import "UIKit/Types.h"
-#import "xpc/Types.h"
+#include <Kernel/Types.h>
+#include <dyld/Types.h>
+#include <pthread/Types.h>
+#include <Darwin/Types.h>
+#include <sandbox/Types.h>
+#include <icu/Types.h>
+#include <CoreAnimation/Types.h>
+#include <CoreAudio/Types.h>
+#include <AudioToolbox/Types.h>
+#include <CommonCrypto/Types.h>
+#include <CoreFoundation/Types.h>
+#include <CoreGraphics/Types.h>
+#include <CoreMedia/Types.h>
+#include <CoreText/Types.h>
+#include <CoreVideo/Types.h>
+#include <Foundation/Types.h>
+#include <IOKit/Types.h>
+#include <IOKit/NXTypes.h>
+#include <IOSurface/Types.h>
+#include <objc/Types.h>
+#include <os/Types.h>
+#include <Security/Types.h>
+#include <UIKit/Types.h>
+#include <xpc/Types.h>
 #ifdef SWIFT
-#import "Swift/Types.h"
+#include <Swift/Types.h>
 #endif
-#import "System/Types.h"
+#include <System/Types.h>
 
 #endif

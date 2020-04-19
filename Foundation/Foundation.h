@@ -1,6 +1,6 @@
-#import "../Types.h"
-#import "../CoreGraphics/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreGraphics/Types.h>
+#include "Types.h"
 
 CGFloat NSWidth(NSRect aRect);
 CGFloat NSHeight(NSRect aRect);

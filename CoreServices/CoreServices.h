@@ -1,6 +1,6 @@
-#import "../Types.h"
-#import "../CoreFoundation/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreFoundation/Types.h>
+#include "Types.h"
 
 Boolean UTTypeConformsTo(CFStringRef inUTI, CFStringRef inConformsToUTI);
 Boolean UTTypeEqual(CFStringRef inUTI1, CFStringRef inUTI2);

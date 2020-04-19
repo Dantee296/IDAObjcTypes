@@ -1,6 +1,6 @@
-#import "../Types.h"
-#import "Types.h"
-#import "../objc/Types.h"
+#include <Types.h>
+#include "Types.h"
+#include <objc/Types.h>
 
 bool swift_dynamicCast(opaque*, opaque*, type*, type*, size_t);
 bool swift_isClassType(type*);

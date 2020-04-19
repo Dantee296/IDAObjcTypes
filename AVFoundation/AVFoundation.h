@@ -1,5 +1,5 @@
-#import "../CoreGraphics/Types.h"
-#import "../Foundation/Types.h"
+#include <CoreGraphics/Types.h>
+#include <Foundation/Types.h>
 
 CGRect AVMakeRectWithAspectRatioInsideRect(CGSize aspectRatio, CGRect boundingRect);
 

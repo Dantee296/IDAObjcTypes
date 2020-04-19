@@ -1,7 +1,7 @@
-#import "../Types.h"
-#import "../CoreFoundation/Types.h"
-#import "../CoreVideo/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreFoundation/Types.h>
+#include <CoreVideo/Types.h>
+#include "Types.h"
 
 CFNotificationCenterRef CMNotificationCenterCreate(void); // CMNotificationCenterRef ?
 

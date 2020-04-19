@@ -1,7 +1,7 @@
 #ifndef SECURITY_H_
 #define SECURITY_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 typedef struct __SecCertificate *SecCertificateRef;
 typedef struct __SecIdentity *SecIdentityRef;

@@ -1,4 +1,4 @@
-#import "../Types.h"
+#include <Types.h>
 
 typedef struct _NXTabletPointData {
 	SInt32  x;

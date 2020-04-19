@@ -1,8 +1,8 @@
 #ifndef COREFOUNDATION_H_
 #define COREFOUNDATION_H_
 
-#import "../Darwin/Types.h"
-#import "../Types.h"
+#include <Darwin/Types.h>
+#include <Types.h>
 
 typedef struct __CFError *CFErrorRef;
 typedef const struct __CFAllocator *CFAllocatorRef;

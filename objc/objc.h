@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 id objc_alloc(id);
 id objc_alloc_init(Class);

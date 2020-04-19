@@ -1,7 +1,7 @@
 #ifndef COREGRAPHICS_H_
 #define COREGRAPHICS_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 #ifdef __EA64__
 typedef double CGFloat;

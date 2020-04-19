@@ -1,8 +1,8 @@
 #ifndef FOUNDATION_H_
 #define FOUNDATION_H_
 
-#import "../CoreGraphics/Types.h"
-#import "../objc/Types.h"
+#include <CoreGraphics/Types.h>
+#include <objc/Types.h>
 
 #ifdef __EA64__
 typedef unsigned long long NSUInteger;

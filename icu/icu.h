@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 #define U_NO_NUMERIC_VALUE ((double)-123456789.)
 

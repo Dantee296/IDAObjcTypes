@@ -23,7 +23,7 @@
 #ifndef SUBSTRATE_H_
 #define SUBSTRATE_H_
 
-#import "../objc/Types.h"
+#include <objc/Types.h>
 
 bool MSHookProcess(pid_t pid, const char *library);
 

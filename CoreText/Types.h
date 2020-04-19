@@ -1,7 +1,7 @@
 #ifndef CORETEXT_H_
 #define CORETEXT_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 typedef struct __CTFont *CTFontRef;
 typedef struct __CTFontDescriptor *CTFontDescriptorRef;

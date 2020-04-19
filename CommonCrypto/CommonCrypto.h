@@ -1,4 +1,4 @@
-#import "Types.h"
+#include "Types.h"
 
 int CC_MD4_Init(CC_MD4_CTX *c);
 int CC_MD4_Update(CC_MD4_CTX *c, const void *data, CC_LONG len);

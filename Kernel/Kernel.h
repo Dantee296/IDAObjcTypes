@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 uint64_t mach_continuous_time(void);
 uint64_t mach_continuous_approximate_time(void);

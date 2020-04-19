@@ -1,7 +1,7 @@
-#import "../CoreFoundation/Types.h"
-#import "../Foundation/Types.h"
-#import "../IOSurface/Types.h"
-#import "Types.h"
+#include <CoreFoundation/Types.h>
+#include <Foundation/Types.h>
+#include <IOSurface/Types.h>
+#include "Types.h"
 
 CFTypeID CGPathGetTypeID(void);
 CFTypeID CGImageGetTypeID(void);

@@ -1,6 +1,6 @@
-#import "../Types.h"
-#import "../CoreGraphics/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreGraphics/Types.h>
+#include "Types.h"
 
 UIEdgeInsets UIEdgeInsetsFromString(NSString *str);
 UIEdgeInsets UIEdgeInsetsAdd(UIEdgeInsets a, UIEdgeInsets b);

@@ -1,7 +1,7 @@
 #ifndef COREANIMATION_H_
 #define COREANIMATION_H_
 
-#import "../CoreGraphics/Types.h"
+#include <CoreGraphics/Types.h>
 
 typedef struct CATransform3D {
     CGFloat _field1;

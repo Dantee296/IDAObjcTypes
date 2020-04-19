@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 char *sandbox_extension_issue_file(const char *extension_class, const char *path, uint32_t flags);
 char *sandbox_extension_issue_file_to_process(const char *extension_class, const char *path, uint32_t flags, audit_token_t);

@@ -1,9 +1,9 @@
 #ifndef MY_DARWIN_H_
 #define MY_DARWIN_H_
 
-#import "../Kernel/Types.h"
-#import "../Foundation/Types.h"
-#import "../Types.h"
+#include <Kernel/Types.h>
+#include <Foundation/Types.h>
+#include <Types.h>
 
 typedef uint32_t mach_error_t;
 typedef uint32_t dispatch_lock;

@@ -1,7 +1,7 @@
-#import "../Types.h"
-#import "../CoreFoundation/Types.h"
-#import "../CoreGraphics/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreFoundation/Types.h>
+#include <CoreGraphics/Types.h>
+#include "Types.h"
 
 CGAffineTransform CTRunGetTextMatrix(CTRunRef run);
 

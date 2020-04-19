@@ -1,7 +1,7 @@
 #ifndef XPC_H_
 #define XPC_H_
 
-#import "../Foundation/Types.h"
+#include <Foundation/Types.h>
 
 typedef NSObject *xpc_object_t;
 

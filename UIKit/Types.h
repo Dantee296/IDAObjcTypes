@@ -1,9 +1,9 @@
 #ifndef UIKIT_H_
 #define UIKIT_H_
 
-#import "../CoreFoundation/Types.h"
-#import "../CoreGraphics/Types.h"
-#import "../Foundation/Types.h"
+#include <CoreFoundation/Types.h>
+#include <CoreGraphics/Types.h>
+#include <Foundation/Types.h>
 
 typedef struct __UIImage *UIImage;
 

@@ -1,7 +1,7 @@
 #ifndef COREVIDEO_H_
 #define COREVIDEO_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 typedef struct __CVBuffer *CVBufferRef;
 typedef struct __CVPixelBufferPool *CVPixelBufferPoolRef;

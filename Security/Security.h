@@ -1,6 +1,6 @@
-#import "../Types.h"
-#import "../CoreFoundation/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreFoundation/Types.h>
+#include "Types.h"
 
 CFTypeID SecTrustGetTypeID(void);
 CFTypeID SecCertificateGetTypeID(void);

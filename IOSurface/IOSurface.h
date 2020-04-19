@@ -1,8 +1,8 @@
-#import "../Types.h"
-#import "../CoreGraphics/Types.h"
-#import "../CoreFoundation/Types.h"
-#import "../IOKit/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreGraphics/Types.h>
+#include <CoreFoundation/Types.h>
+#include <IOKit/Types.h>
+#include "Types.h"
 
 size_t IOSurfaceAlignProperty(CFStringRef property, size_t value);
 size_t IOSurfaceGetAllocSize(IOSurfaceRef buffer);

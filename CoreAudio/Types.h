@@ -1,7 +1,7 @@
 #ifndef COREAUDIO_H_
 #define COREAUDIO_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 typedef UInt32 AudioChannelLabel;
 typedef UInt32 AudioChannelLayoutTag;

@@ -1,7 +1,7 @@
-#import "../Types.h"
-#import "../CoreFoundation/Types.h"
-#import "../IOSurface/Types.h"
-#import "Types.h"
+#include <Types.h>
+#include <CoreFoundation/Types.h>
+#include <IOSurface/Types.h>
+#include "Types.h"
 
 CFTypeID CVPixelBufferGetTypeID(void);
 

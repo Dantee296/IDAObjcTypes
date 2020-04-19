@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 int _dyld_func_lookup(const char *dyld_func_name, void **address);
 

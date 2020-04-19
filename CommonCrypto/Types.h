@@ -1,7 +1,7 @@
 #ifndef COMMONCRYPTO_H_
 #define COMMONCRYPTO_H_
 
-#import "../Types.h"
+#include <Types.h>
 
 typedef uint32_t CC_LONG;
 typedef uint64_t CC_LONG64;

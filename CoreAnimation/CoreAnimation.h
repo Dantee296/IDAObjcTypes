@@ -1,5 +1,5 @@
-#import "../Types.h"
-#import "Types.h"
+#include <Types.h>
+#include "Types.h"
 
 bool CATransform3DIsAffine(CATransform3D t);
 bool CATransform3DIsIdentity(CATransform3D t);
